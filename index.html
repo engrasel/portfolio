@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/wp-required-style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header class="offCanvasMenu">
+    
+    <img class="logo" src="images/logo.png" alt="site logo">
+    
+    <nav class="menu">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    <a class="hireMe" href="#">Hire Me</a>
+    </nav>
+
+    <!-- show icon -->
+    <button class="showOffCanvasBtn" onclick="showMenu()">&#9776;</button>
+  </header>
+
+  <script src="js/main.js"></script>
+  <script>
+    function showMenu() {
+      const menu = document.querySelector(".menu");
+      menu.classList.add("mobileNav");
+    }
+  </script>
+</body>
+
+</html>
