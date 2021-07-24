@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -41,4 +42,59 @@ section img{
     position: absolute;
     bottom: 0;
     left: 0;
+=======
+/*default style*/
+* {
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+
+/* Header Style */
+.offCanvasMenu {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 10px 50px;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.menu ul li a,
+a.hireMe {
+  text-transform: uppercase;
+}
+
+.showOffCanvasBtn {
+  display: none;
+  cursor: pointer;
+}
+.logo img {
+  width: 150px;
+}
+
+.hireMe {
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 5px 15px;
+  display: table;
+>>>>>>> 47a36f864a04c5e47655d18f7dbe1f207407ef43
 }
