@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 20px;
+    line-height: 30px;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 100px;
+    background: linear-gradient(180deg, rgb(76, 0, 255), tomato), url(https://i.ibb.co/6HNxJby/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+}
+h2{
+    color: #fff;
+    font-size: 60px;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+p{
+    color: #fff;
+}
+.content{
+    z-index: 1;
+}
+section img{
+    margin: auto;
+    z-index: 1;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
